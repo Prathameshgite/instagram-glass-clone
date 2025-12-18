@@ -59,3 +59,83 @@
   margin-right: 10px;
   color: white;
 }
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  width: 320px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.modal-content img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: none;
+}
+
+.modal-content button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-content button.secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+.post-img-wrapper {
+  position: relative;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Heart overlay */
+.heart-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 80px;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.heart-overlay.show {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* Like button animation */
+.like-btn {
+  transition: transform 0.2s ease;
+}
+
+.like-btn.liked {
+  transform: scale(1.3);
+}

@@ -17,15 +17,26 @@
 
    <div class="nav-right">
     <span class="nav-icon">🏠</span>
-    <span class="nav-icon">➕</span>
+    <span class="nav-icon" id="addPostBtn">➕</span>
     <span class="nav-icon" onclick="goProfile()">👤</span>
    </div>
   </header>
 
   <!-- Feed -->
  <main class="feed" id="feed"></main>
+ <div class="modal" id="postModal">
+  <div class="modal-content glass">
+    <h3>New Post</h3>
 
+    <input type="file" id="postImage" accept="image/*">
+    <input type="text" id="postCaption" placeholder="Write a caption...">
 
+    <img id="preview" />
+
+    <button onclick="addPost()">Post</button>
+    <button class="secondary" onclick="closePostModal()">Cancel</button>
+  </div>
+ </div>
  <script src="../js/feed.js"></script>
  <script>
   function goProfile() {
