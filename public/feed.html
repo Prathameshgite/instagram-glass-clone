@@ -18,7 +18,7 @@
    <div class="nav-right">
     <span class="nav-icon">🏠</span>
     <span class="nav-icon">➕</span>
-    <span class="nav-icon">👤</span>
+    <span class="nav-icon" onclick="goProfile()">👤</span>
    </div>
   </header>
 
@@ -27,6 +27,11 @@
 
 
  <script src="../js/feed.js"></script>
+ <script>
+  function goProfile() {
+    window.location.href = "profile.html";
+  }
+ </script>
 
 </body>
 </html>

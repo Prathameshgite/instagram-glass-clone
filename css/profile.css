@@ -1,0 +1,62 @@
+/* Navbar reuse */
+.navbar {
+  width: 95%;
+  margin: 15px auto;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Profile card */
+.profile {
+  width: 90%;
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bio {
+  margin: 10px 0 20px;
+  opacity: 0.9;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+/* Posts grid */
+.posts {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.posts img {
+  width: 100%;
+  border-radius: 8px;
+}
