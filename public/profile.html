@@ -24,6 +24,8 @@
     <img class="avatar" src="https://i.pravatar.cc/150?img=3">
     <h2>user_one</h2>
     <p class="bio">Frontend developer | Glass UI lover ✨</p>
+    <button id="followBtn" class="follow-btn">Follow</button>
+
 
     <div class="stats">
       <div><b>3</b><span>Posts</span></div>
@@ -44,6 +46,30 @@
       window.location.href = "feed.html";
     }
   </script>
+ <script>
+  let isFollowing = false;
+  let followers = 120;
+
+  const followBtn = document.getElementById("followBtn");
+  const followersCount = document.getElementById("followersCount");
+
+  followBtn.addEventListener("click", () => {
+    isFollowing = !isFollowing;
+
+    if (isFollowing) {
+      followers++;
+      followBtn.textContent = "Following";
+      followBtn.classList.add("following");
+    } else {
+      followers--;
+      followBtn.textContent = "Follow";
+      followBtn.classList.remove("following");
+    }
+
+    followersCount.textContent = followers;
+   });
+ </script>
+
 
 </body>
 </html>
