@@ -1,10 +1,31 @@
 .navbar {
-  width: 90%;
-  margin: 20px auto;
-  padding: 15px 30px;
+  width: 95%;
+  margin: 15px auto;
+  padding: 14px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+  font-size: 20px;
+}
+
+.nav-left {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2);
 }
 
 .feed {
