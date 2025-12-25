@@ -7,11 +7,11 @@ This project is being developed step-by-step, following real-world frontend arch
 
 ## ✨ Current Features (Implemented)
 
-### 🔐 Authentication (UI only)
+### 🔐 Authentication (UI only) 
 - Glassmorphism login page
 - Navigation from login → feed
 
-### 🏠 Feed Page
+### 🏠 Feed Page :
 - Instagram-style feed layout
 - Multiple dynamic posts (JavaScript-driven)
 - Like / Unlike functionality
