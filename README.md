@@ -37,7 +37,7 @@ This project is being developed step-by-step, following real-world frontend arch
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack :
 
 | Technology | Purpose |
 |---------|--------|
