@@ -99,7 +99,7 @@ This project demonstrates:
 
 ---
 
-## 🔮 Upcoming Features
+## 🔮 Upcoming Features :
 
 - 🔐 Firebase Authentication (real users)
 - 💾 Firebase Firestore (store posts, likes, follows)
