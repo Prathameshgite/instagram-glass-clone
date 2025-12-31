@@ -17,7 +17,7 @@ This project is being developed step-by-step, following real-world frontend arch
 - Like / Unlike functionality
 - ❤️ Instagram-style heart animation (double-click)
 - ➕ Add Post modal with:
-  - Image preview
+  - Image previe
   - Caption input
   - Dynamic post insertion
 
