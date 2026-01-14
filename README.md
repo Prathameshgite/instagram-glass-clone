@@ -1,4 +1,4 @@
-        # 📸 Instagram Glass Clone 
+       # 📸 Instagram Glass Clone 
 -----------------------------
 A modern **Instagram-inspired web application** built using **HTML, CSS, and JavaScript**, featuring a **Liquid Glass (Glassmorphism) UI**.  
 This project is being developed step-by-step, following real-world frontend architecture and development practices.
